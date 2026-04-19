@@ -3,7 +3,7 @@
 # Mohamed Sakr
 ### 📡 PhD Researcher · SAR Image Processing · Deep Learning · Remote Sensing
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=750&lines=PhD+Researcher+in+SAR+%26+Deep+Learning;Published+in+Journal+of+Applied+Remote+Sensing+2024;Building+AI-powered+Remote+Sensing+Pipelines;MSc+Graduate+%7C+Now+Pursuing+PhD)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=750&lines=PhD+Researcher+in+SAR+%26+Deep+Learning;2+Published+Papers+%7C+JARS+2024+%7C+ASAT+2024;Building+AI-powered+Remote+Sensing+Pipelines;MSc+Graduate+%7C+Now+Pursuing+PhD)](https://git.io/typing-svg)
 
 ---
 
@@ -16,26 +16,28 @@
 
 ## 👨‍🔬 About Me
 
-I am a **PhD Researcher** specialising in **SAR image processing, Remote Sensing, and Deep Learning**. My work applies state-of-the-art deep learning architectures — including Res-U-Net and CNN — to solve real-world challenges in synthetic aperture radar (SAR) autofocus, image formation, and terrain classification.
+I am a **PhD Researcher** specialising in **SAR image processing, Remote Sensing, and Deep Learning**. My work applies state-of-the-art deep learning architectures and signal processing techniques to solve real-world challenges in synthetic aperture radar (SAR) imaging, autofocus, and terrain classification.
 
-- 🛰️ **Research area:** SAR image autofocus, terrain classification, deep learning for remote sensing  
-- 🧠 **Expertise:** CNN · U-Net · Res-U-Net · Image Restoration · Transfer Learning  
-- 📄 **Published:** [JARS 2024 — Enhanced SAR autofocus and classification using 2D SARNet](https://doi.org/10.1117/1.JRS.18.026507)  
-- 🎓 **MSc:** Completed — Remote Sensing & Deep Learning  
-- 🔬 **PhD:** Currently pursuing — same field (SAR & Deep Learning)  
-- 🌍 **Location:** Egypt  
+- 🛰️ **Research area:** SAR image autofocus, mismatched filter design, terrain classification, deep learning for remote sensing
+- 🧠 **Expertise:** CNN · U-Net · Res-U-Net · Range-Doppler Algorithm · QCQP Optimisation · Image Restoration
+- 📄 **2 Published papers** in JARS 2024 and ASAT 2024
+- 🎓 **MSc:** Completed — Remote Sensing & Deep Learning
+- 🔬 **PhD:** Currently pursuing — SAR & Deep Learning
+- 🌍 **Location:** Egypt
 
 ---
 
-## 🗞️ Featured Publication
+## 🗞️ Publications
 
-> **Enhanced synthetic aperture radar image autofocus and classification using 2D SARNet framework**  
-> *Mohamed Sakr, Ahmed Saleh, Fathy AbdElkader, Ghada Amer, Mohamed AboElenean*  
-> 📰 **Journal of Applied Remote Sensing (JARS)**, 2024  
+### 📰 Paper 1 — JARS 2024
+
+> **Enhanced synthetic aperture radar image autofocus and classification using 2D SARNet framework**
+> *Mohamed Sakr, Ahmed Saleh, Fathy AbdElkader, Ghada Amer, Mohamed AboElenean*
+> 📰 **Journal of Applied Remote Sensing (JARS)**, 2024
 > 🔗 DOI: [10.1117/1.JRS.18.026507](https://doi.org/10.1117/1.JRS.18.026507)
 
 **Key contributions:**
-- ✅ **ResU-Net** based SAR image autofocus pipeline replacing traditional post-processing
+- ✅ **ResU-Net** based SAR image autofocus — replacing traditional post-processing
 - ✅ **CNN terrain classifier** (Mountain / Sand / River) — 100% test accuracy
 - ✅ Near-real-time SAR processing workflow
 - ✅ Quantitative evaluation using **SSIM** & **PSNR** metrics
@@ -52,11 +54,38 @@ I am a **PhD Researcher** specialising in **SAR image processing, Remote Sensing
 
 ---
 
+### 📰 Paper 2 — ASAT 2024
+
+> **Optimization of a Mismatched Filter for SAR Imaging Using a QCQP Approach**
+> *Mohamed Sakr et al.*
+> 📰 **ASAT Conference**, Volume 20, Issue 20, pp. 1–12, 2024
+
+**Key contributions:**
+- ✅ **QCQP-based mismatched filter** for SAR range compression
+- ✅ Significant **range sidelobe reduction** vs. matched filter
+- ✅ Modified **Range-Doppler Algorithm (RDA)** integrating the optimized filter
+- ✅ Point target simulation validated with **PSLR** & **ISLR** metrics
+
+```bibtex
+@inproceedings{sakr2024qcqp,
+  title     = {Optimization of a Mismatched Filter for SAR Imaging Using a QCQP Approach},
+  author    = {Sakr, Mohamed and others},
+  booktitle = {Proceedings of the ASAT Conference},
+  volume    = {20},
+  number    = {20},
+  pages     = {1--12},
+  year      = {2024}
+}
+```
+
+---
+
 ## 📁 Featured Repositories
 
 <div align="center">
 
 [![SAR Autofocus](https://github-readme-stats.vercel.app/api/pin/?username=sakrmtc&repo=sar-autofocus-resunet-classification&theme=tokyonight&show_owner=true)](https://github.com/sakrmtc/sar-autofocus-resunet-classification)
+[![RDA Mismatched Filter](https://github-readme-stats.vercel.app/api/pin/?username=sakrmtc&repo=sar-rda-mismatched-filter&theme=tokyonight&show_owner=true)](https://github.com/sakrmtc/sar-rda-mismatched-filter)
 [![Deep Learning Remote Sensing](https://github-readme-stats.vercel.app/api/pin/?username=sakrmtc&repo=deep-learning-remote-sensing&theme=tokyonight&show_owner=true)](https://github.com/sakrmtc/deep-learning-remote-sensing)
 
 </div>
@@ -69,17 +98,19 @@ I am a **PhD Researcher** specialising in **SAR image processing, Remote Sensing
 
 ### Languages & Frameworks
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 
-### Deep Learning Architectures
+### Research Methods & Models
 ![CNN](https://img.shields.io/badge/CNN-Classifier-2E9EF7?style=for-the-badge)
 ![U-Net](https://img.shields.io/badge/U--Net-Encoder%2FDecoder-success?style=for-the-badge)
 ![ResU-Net](https://img.shields.io/badge/ResU--Net-SAR+Autofocus-orange?style=for-the-badge)
+![RDA](https://img.shields.io/badge/RDA-Range--Doppler-blueviolet?style=for-the-badge)
+![QCQP](https://img.shields.io/badge/QCQP-Filter+Optimisation-red?style=for-the-badge)
 
 ### Tools & Platforms
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
@@ -98,8 +129,9 @@ I am a **PhD Researcher** specialising in **SAR image processing, Remote Sensing
 🧠  Deep Learning (CNN/U-Net)   ████████████████████  100%
 🗺️  Terrain Classification      ████████████████████  100%
 📡  Remote Sensing              ████████████████████  100%
-🔬  SAR Autofocus               ████████████████░░░░   80%
-📈  Evaluation Metrics (SSIM)   ██████████████░░░░░░   70%
+🔬  SAR Autofocus & RDA         ████████████████░░░░   80%
+🧮  Signal Optimisation (QCQP)  ██████████████░░░░░░   70%
+📈  Evaluation Metrics          ██████████████░░░░░░   70%
 ```
 
 ---
@@ -131,7 +163,7 @@ I am a **PhD Researcher** specialising in **SAR image processing, Remote Sensing
 
 [![GitHub](https://img.shields.io/badge/GitHub-sakrmtc-181717?style=for-the-badge&logo=github)](https://github.com/sakrmtc)
 
-> 💡 *Open to academic collaboration in SAR image processing, deep learning for remote sensing, and related fields.*
+> 💡 *Open to academic collaboration in SAR image processing, deep learning for remote sensing, and related research fields.*
 
 </div>
 
